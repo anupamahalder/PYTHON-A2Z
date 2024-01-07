@@ -6,6 +6,10 @@ num1 = 45
 print(type(num1))
 num2 = 34.9
 print(type(num2))
+# complex datatype 
+num = 42j
+print(num)
+print(type(num))
 
 
 '''
