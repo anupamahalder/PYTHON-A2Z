@@ -101,3 +101,20 @@ print(type(x))
 **NOTE:**
 
 By default input in python is in the form of string
+
+## **Binary Types**
+
+- **bytes**:
+    
+    The bytes() function returns a bytes object. It convert objects into bytes objects, or create empty bytes object of the specified size. The difference between bytes() and bytearray() is that bytes() returns an object that cannot be modified, and bytearray() returns an object that can me modified.
+    
+- **bytearray:**
+    
+    The bytearray type is a mutable sequence of integers in the range between 0 and 255. The ***bytearray***() function returns a ***bytearray*** object. It can convert objects into ***bytearray*** objects, or create empty ***bytearray*** object of the specified size.
+    
+
+Byte Arrays are commonly used to **store large amounts of data such as images, audio files, video files, or text files for use in an applications**.
+
+## None Type
+
+The None keyword is used to define a null value, or no value at all. None is not the same as 0, False, or an empty string.
