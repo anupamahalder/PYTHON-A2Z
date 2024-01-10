@@ -288,3 +288,26 @@ The precedence order is described in the table below, starting with the highest 
 | or | OR |
 
 **NOTE**: If two operators have the same precedence, the expression is evaluated from left to right.
+
+## Swapping
+
+In programming, a swap function is **a useful tool that allows the values of two variables to be exchanged with each other**.
+
+```python
+a = 5
+b = 7
+#swapping
+a,b = b,a
+#after swapping
+a = 7
+b = 5
+```
+
+## User Input
+
+Using input() method, we can take input from user in Python.
+
+```python
+username = input("Enter your name:")
+print(username)
+```
