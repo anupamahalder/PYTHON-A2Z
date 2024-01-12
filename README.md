@@ -311,3 +311,22 @@ Using input() method, we can take input from user in Python.
 username = input("Enter your name:")
 print(username)
 ```
+## Type Casting
+
+Type casting, also known as type conversion, is the process of converting a variable's data type into another data type. These conversions can be implicit (automatically interpreted) or explicit (using built-in functions).
+
+**There are two types of type casting in Python:**
+
+- Implicit type casting: This is when Python automatically converts a data type to another data type. For example, if you add a string and an integer, Python will automatically convert the string to an integer.
+- Explicit type casting: This is when you use a built-in function to convert a data type to another data type. For example, you can use the **`int()`** function to convert a string to an integer.
+
+We cannot convert string directly into integer if string contains non-digit as character.
+
+```python
+name = "hello"
+print(int(name)) # Error will come as name doesn't contain digits
+num = "1244"
+print(int(num)) # 1244 (As num contains digit as character"
+```
+
+To convert string to integer or float the string should have valid integer or float inside string, otherwise error will come to convert data type.
