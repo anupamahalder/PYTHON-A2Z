@@ -381,7 +381,7 @@ list1[0] = “orange”
 
  **2. Remove Specified Index:**
 
-1. The `pop()` method removes the specified index.
+1. The `pop()` method removes the specified index. If you do not specify the index, the pop() method removes the last item.
     
     ```python
     list1.pop(2) #here 2 is the index number
