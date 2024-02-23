@@ -387,10 +387,10 @@ list1[0] = “orange”
     list1.pop(2) #here 2 is the index number
     ```
     
-2. The `del` keyword also removes the specified index.
+2. The `del` keyword also removes the specified index. We have to use square bracket.
     
     ```python
-    del.list1(1) #here 1 is the index number
+    del list1[1] #here 1 is the index number
     ```
     
 1. **Clear the list:**
