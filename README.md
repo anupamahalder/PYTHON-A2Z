@@ -330,3 +330,41 @@ print(int(num)) # 1244 (As num contains digit as character"
 ```
 
 To convert string to integer or float the string should have valid integer or float inside string, otherwise error will come to convert data type.
+
+## Python Lists
+
+Lists are used to store multiple items in a single variable.
+
+List items can be of any data type:
+
+```python
+list1 = ["apple", "banana", "cherry"]
+list2 = [1,2,3,4,5]
+list3 = [True, False, False, True]
+```
+
+List items will be inside square bracket. To add multiple values in a list we have to add comma after each item. We will not add any comma after the last item in the list. Index is required to get a particular item from the list. Index starts with 0.
+
+The list is changeable/mutable, meaning that we can change, add, and remove items in a list after it has been created.
+
+**Update list item:** 
+
+```python
+list1[0] = “orange”
+```
+
+**Insert Items in list:** 
+
+1. **Append:** 
+    
+    To add an item to the end of the list, use the `append()` method.
+    
+    ```python
+    list1.append(”Watermelon”)
+    ```
+    
+2. To insert a list item at a specific index, use the `insert()` method. Where we have to give index number then items inside this function.
+    
+    ```python
+    list1.insert(2, “Grape”)
+    ```
