@@ -368,3 +368,35 @@ list1[0] = “orange”
     ```python
     list1.insert(2, “Grape”)
     ```
+**Remove List Items:**
+
+1. **Remove Specified Item:**
+    
+    The `remove()` method removes the specified item. We have to write the element inside remove method.
+    
+    ```python
+    list1.remove(”banana”)
+    ```
+    
+
+ **2. Remove Specified Index:**
+
+1. The `pop()` method removes the specified index.
+    
+    ```python
+    list1.pop(2) #here 2 is the index number
+    ```
+    
+2. The `del` keyword also removes the specified index.
+    
+    ```python
+    del.list1(1) #here 1 is the index number
+    ```
+    
+1. **Clear the list:**
+    
+    The `clear()` method empties the list. The list still remains, but it has no content.
+    
+    ```python
+    list2.clear()
+    ```
