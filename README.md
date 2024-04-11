@@ -1,4 +1,5 @@
 # Python
+Refereneces : (https://www.w3schools.com/python)
 
 ## What do you use Python for?
 
@@ -400,3 +401,24 @@ list1[0] = “orange”
     ```python
     list2.clear()
     ```
+### Function in Python
+
+A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.
+
+**Creating a function:**
+
+In Python a function is defined using the def keyword. 
+
+```python
+def func(num1, num2):
+	return num1+num2
+```
+
+**Calling a Function:**
+
+To call a function, use the function name followed by parenthesis. And passing arguments if the function requires any parameter.
+
+```python
+res = func(4, 7)
+print(res) # 11
+```
