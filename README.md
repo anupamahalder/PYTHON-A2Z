@@ -422,3 +422,30 @@ To call a function, use the function name followed by parenthesis. And passing a
 res = func(4, 7)
 print(res) # 11
 ```
+**Parameters or Arguments?**
+
+The terms *parameter* and *argument* can be used for the same thing: information that are passed into a function.
+
+From a function's perspective:
+
+A parameter is the variable listed inside the parentheses in the function definition.
+
+An argument is the value that is sent to the function when it is called.
+
+**Arguments:**
+
+Information can be passed into functions as arguments.
+
+Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.
+
+**Example:**
+
+```python
+def my_func(fname): #here fname is the parameter
+	print(fname + " Hello, how are you?")
+	
+my_func("Anupama")
+my_func("Tom")
+```
+
+The following example has a function with one argument (fname). When the function is called, we pass along a first name, which print the name with a question.
