@@ -1,5 +1,5 @@
 # OOP (Object Oriented Programming):
-## What is Inheritance ?  
+## Inheritance: 
   => Inheritance is a fundamental concept in Object-oriented programming (OOP) that allows a new class (subclass or derived class) to inherit <b>properties and 
   behavior(methods)</b> from an existing class (superclass or base class). This enables code re-use and facilitates the creation of hierarchies of classes with shared
   characteristics.
@@ -8,7 +8,7 @@
   superclass and can also define its own attributes and methods.
   
 
-## What is Encapsulation?
+## Encapsulation:
 => Encapsulation is the building of data (attributes) and methods (functions) that operate on the data into a single
 unit, called a class. It is one of the four fundamental principles of object-oriented programming (OOP), along with
 inheritance, polymorphism, and abstraction. Encapsulation helps to hide the internal state of an object and only expose the necessary functionality, thus providing better control over access to the data.
@@ -18,7 +18,7 @@ inheritance, polymorphism, and abstraction. Encapsulation helps to hide the inte
 => Access Modifiers are keywords in programming languages that specify the accessibility of classes, attributes, methods, and other members of a class. They control how these members can be accessed and modifies from outside the class. Common access modifiers include public, private, and protected.
 
 
-## What is Operator Overloading?
+## Operator Overloading:
 => Operator overloading is a feature in object-oriented programming languages that allows a class to define the behavior of its operators such as +, -, *, /, etc. This means that operators can have different meanings depending on the context in which they are used. In Python, operator overloading is achieved by defining special methods within a class, often referred to as magic or dunder methods (due to their double underscore prefix and suffix).
 
 <li>For example:</li>
@@ -80,3 +80,7 @@ Below are the lists of Python magic methods and their uses.
 <li>__le__(self, other): Defines behavior for the less-than-or-equal-to operator, <=</li>
 <li>__ge__(self, other): Defines behavior for the greater-than-or-equal-to operator, >=</li>
 
+## Method Overriding:
+<li>Metjod overriding is an ability of any object-oriented programming language that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes. 
+</li>
+<li>When a method in a subclass has the same name, same parameters or signature and same return type(or sub-type) as a method in its super-class, then the method in the subclass is said to override the method in the super-class.</li>
